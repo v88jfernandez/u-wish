@@ -1,0 +1,325 @@
+@admin: #1EA98D;
+@admin_container_bg: #454545;
+ 
+@user: #FC5E5E; 
+@user_container_bg: #F5F5F5;
+
+@orange: #F3AA53;
+@yellow: #FFEFD4;
+@white: #ffffff;
+@green: #1EA98D;
+@red: #FC5E5E;
+@gray: #ECECEC;
+
+@gray_text: #6e6e6e;
+
+@font_10: 10px;
+@font_12: 12px;
+@font_14: 14px;
+
+@font_16: 16px;
+@font_18: 18px;
+
+
+
+
+#wrapper {
+	#enrollment_personal_section {
+		margin-bottom: 25px;
+		form {
+			background-color: @white;
+			min-height: 100px;
+			padding: 0px;
+			box-shadow: 0px 0px 5px #cecece;
+		}
+
+		#leave_credentials_container {
+		display: block;
+		width: 100%;
+		min-height: 180px;
+		padding: 25px;
+		padding-bottom: 10px;
+		#user_profile_summary_container {
+			display: inline-block;
+			vertical-align: top;
+			img {
+				border-radius: 50%;
+				border: 5px solid @yellow;
+				display: inline-block;
+				vertical-align: top;
+				height: 120px;
+				width: 120px;
+			}
+			.user_profile_summary {
+				width: 505px;
+				display: inline-block;
+				vertical-align: top;
+				margin-left: 20px;
+				.dib{
+					width: 222px;
+					display: inline-block;
+					vertical-align: top;
+					margin-right: 25px;
+				}
+				.user_name {
+					font-size: @font_18;
+					font-family: ProximaNova_Bold;
+					margin: 0px;
+				}
+				.user_year_level {
+					margin-bottom: 20px;
+				}
+				.sub_label {
+					width: 85px;
+				}
+				h4 {
+					margin: 0px;
+					font-size: @font_16;
+					font-family: ProximaNova_Regular;
+					color: @gray_text;
+					display: inline-block;
+					
+					&.pull-right{
+						margin-top: 2px;
+					}
+				}
+				.user_agency {
+					margin-bottom: 20px;
+				}
+			}
+			#enrollment_notification_container {
+				width: 445px;
+				height: 77px;
+				background-color: @red;
+				display: inline-block;
+				vertical-align: top;
+				margin-top: 25px;
+				display: none;
+
+				.glyphicon-ok-circle {
+					color: white;
+					font-size: 50px;
+					margin-top: 14px;
+					margin-left: 10px;
+				}
+				.notification_text_container {
+					display: inline-block;
+					vertical-align: top;
+					margin-left: 8px;
+
+					h3 {
+						font-size: 19px;
+						color: white;
+						font-family: ProximaNova_Bold;
+						margin-bottom: 0px;
+					}
+					h4 {
+						font-size: 14px;
+						color: white;
+						font-family: ProximaNova_Regular;
+						margin-top: 6px;
+					}
+				}
+			}
+		}
+		#leave_questions_container {
+			display: inline-block;
+			vertical-align: top;
+			width: 580px;
+			margin-left: 80px;
+			height: 100%;
+			.leave_questions_item {
+				width: 180px;
+				display: inline-block;
+				vertical-align: top;
+				margin-right: 30px;
+					.bootstrap-select{
+					width: 170px;
+					.btn{
+						border: 1px solid #bbbbbb ;
+						padding: 4px 12px 1px 12px ;
+						border-radius: 0px ;
+						*{
+							font-family: ProximaNova_Regular ;
+						}
+						.caret{
+							color: @red;
+						}
+					}
+				}
+				label {
+					display: block;
+					vertical-align: top;
+					font-family: ProximaNova_Regular;
+					font-size: @font_14;
+					letter-spacing: 1px;
+					font-weight: normal;
+				}
+			}
+			#number_of_days_input {
+				border: 1px solid #bbbbbb ;
+				padding: 3px 9px;
+			}
+			#days_dates_container {
+				.inclusive_dates_datepicker_label {
+					margin-top: 15px;
+				}
+			}
+			#commutation_container {
+				width: 152px;
+				margin-right: 0px;
+				#commutation_list {
+					li:first-child {
+						margin-bottom: 10px;
+					}
+				}
+			}
+			#type_of_leave_container {
+				.bootstrap-select {
+					margin-bottom: 10px;
+				}
+				.leave_conditions {
+					width: 100%;
+					min-height: 20px;
+					display: block;
+					margin-bottom: 5px;
+					li {
+						input {
+							border: 1px solid #bbbbbb;
+							padding: 3px 9px;
+							width: 160px;
+							margin-left: 10px;
+							margin-top: 10px;
+						}
+					}
+				}
+				#others_leave_condition {
+						input {
+							width: 170px;
+							margin-left: 0px;
+							margin-top: 28px;
+						}
+					}
+				}
+			}
+		}
+	}
+	#available_subjects {
+		margin-bottom: 30px !important;
+	}
+}
+
+.table_container {
+	padding: 0px 20px 20px 20px !important;
+}
+table.table {
+	padding: 0px 10px;
+	max-width: 100%;
+	&.table_with_buttons {
+		tbody {
+			tr {
+				td {
+					.bootstrap-select {
+						width: 130px !important;
+						.btn {
+							border: 1px solid #bbbbbb !important;
+							border-radius: 0px;
+							height: 30px !important;
+						}
+						.error_border {
+							border: 1px solid @red !important;
+						}
+						.dropdown-toggle {
+							.caret {
+								color: @red !important;
+							}
+						}
+					}
+				}
+				
+			}
+		}
+	}
+	thead {
+		tr {
+			th {
+
+			}
+		}
+	}
+	tbody {
+		tr {
+			height: 50px;
+			td {
+				height: 50px;
+				// background-color: @gray !important;
+			}
+			td.enroll_button_container {
+				background-color: @white !important;
+				padding: 0px !important;
+				color: @red !important;
+				font-size: 16px !important;
+
+				* {
+					color: @red !important;
+					font-size: 16px !important;
+					&:hover {
+						color: @white !important;
+					}
+				}
+
+				button {
+					width: 140px;
+					height: 40px;
+					background-color: transparent;
+					border: 1px solid @red;
+					color: @red;
+					font-family: ProximaNova_Regular;
+					font-size: 16px;
+				}
+
+				button.enrolled_button {
+					background-color: @green !important;
+					color: white !important;
+					border-color: @green !important;
+					padding: 0px !important;
+				}
+
+
+
+			}
+
+		}
+		
+	}
+}
+
+// table.table tbody tr:nth-child(even) {
+// 	background-color: @white !important;
+// }
+// table.table tbody tr:nth-child(odd) {
+// 	background-color: @white !important;
+// }
+
+ 
+
+@media (max-width: 800px){
+	table.table {
+		tbody {
+			tr {	
+				td.enroll_button_container {
+					width: 150px !important;
+					button {	
+						float: right;
+						width: 80px !important;
+						height: 60px !important;
+						padding: 0px;
+					}
+				}
+			}
+		}
+	}
+
+}
+
+

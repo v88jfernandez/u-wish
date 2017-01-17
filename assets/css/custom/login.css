@@ -1,0 +1,126 @@
+body {
+  background-color: red;
+}
+#login_bg {
+  background-image: url('../../img/u_wish_login_bg.jpg');
+}
+button:focus {
+  outline: 0 !important;
+}
+.modal .modal-dialog {
+  width: 380px;
+}
+.modal .modal-dialog .modal-content .modal-header {
+  background-color: #fc5e5e;
+  border-radius: 4px 4px 0px 0px;
+}
+.modal .modal-dialog .modal-content .modal-body {
+  padding: 30px;
+}
+.modal .modal-dialog .modal-content .modal-body input {
+  width: 100%;
+  height: 40px;
+  display: block;
+  margin-bottom: 25px;
+  background-color: #ffefd4;
+  border: 0px solid white;
+  padding: 0px 15px;
+  font-family: Proximanova_Regular;
+}
+.modal .modal-dialog .modal-content .modal-body .user_btn {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 25px;
+  font-family: Proximanova_Regular;
+  letter-spacing: 10px;
+}
+.modal .modal-dialog .modal-content .modal-body span {
+  cursor: pointer;
+  color: #b0b0b0;
+  font-family: Proximanova_Regular;
+  letter-spacing: 1px;
+}
+.modal .modal-dialog .modal-content .modal-body span:hover {
+  color: #fc5e5e;
+}
+#wrapper {
+  text-align: center;
+}
+#wrapper #login_content_container {
+  height: 500px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-top: 50px;
+}
+#wrapper #login_content_container #dmmmsu_logo {
+  display: block;
+  margin: 0px auto;
+}
+#wrapper #login_content_container #u_wish_logo {
+  font-family: Proximanova_Bold;
+  font-size: 100px;
+  color: white;
+  letter-spacing: 10px;
+  text-shadow: 2px 2px 8px #383838;
+  margin-top: 60px;
+}
+#wrapper #login_content_container h2 {
+  color: white;
+  font-family: Proximanova_Regular;
+  font-size: 23px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 8px #383838;
+}
+#wrapper #login_content_container .school_name {
+  text-transform: uppercase;
+}
+#wrapper #login_content_container .campus_name {
+  margin-top: 0px;
+}
+#wrapper #login_content_container .title_container {
+  width: 675px;
+  height: 100px;
+  border-top: 1px solid #ffffff;
+  display: block;
+  margin: 0px auto;
+}
+#wrapper #login_content_container #login_button_container {
+  margin-top: 90px;
+}
+#wrapper #login_content_container #login_button_container .login_btn {
+  font-size: 16px;
+  width: 315px;
+  height: 50px;
+  background-color: transparent;
+  display: inline-block;
+  border: 1px solid white;
+  color: white;
+  font-family: Proximanova_Regular;
+  letter-spacing: 4px;
+  -webkit-transition: all 0.6s;
+  /* Safari */
+  transition: all 0.6s;
+  margin: 0px 17px;
+}
+#wrapper #login_content_container #login_button_container .login_btn:hover {
+  background-color: #fc5e5e;
+  border-color: #fc5e5e;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 1280px) {
+  #wrapper #login_content_container {
+    height: 430px !important;
+  }
+  #wrapper #login_content_container #login_button_container {
+    margin-top: 50px !important;
+  }
+}
+@media (max-width: 800px) {
+  #wrapper #login_content_container {
+    margin-top: 80px;
+  }
+  #wrapper #login_content_container #login_button_container {
+    margin-top: 100px !important;
+  }
+}

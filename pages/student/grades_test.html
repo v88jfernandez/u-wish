@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gate Management</title>
+
+	<link rel="stylesheet" href="../assets/css/vendor/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="../assets/css/vendor/bootstrap_select/bootstrap-select.min.css">
+	<link rel="stylesheet" href="../assets/css/vendor/bootstrap-datepicker/bootstrap-datepicker.min.css">
+	<link rel="stylesheet" href="../assets/css/global/global.css">
+
+	<script type="text/javascript" src="../assets/js/vendor/jquery.min.js"></script>
+	<script type="text/javascript" src="../assets/js/vendor/bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../assets/js/vendor/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+	<script type="text/javascript" src="../assets/js/vendor/bootstrap_select/bootstrap-select.min.js"></script>
+	<script type="text/javascript" src="../assets/js/global/global.js"></script>
+</head>
+<body class="user_container_bg">
+	<div id="wrapper">
+		<header id="user_header" class="user_bg">
+			<a id="portal_logo" href="template.html">
+				<img src="../assets/img/u_wish_logo.png" alt="#">
+				<span class="portal_category">Student Portal</span>		
+			</a>
+			<div id="navigation_container">
+				<ul id="sub_navigation_container">
+					<li id="school_name_container">
+						<h3 class="school_name">Don Mariano Marcos Memorial State University</h3>
+						<h3 class="campus_name">Mid - La Union Campus</h3>
+					</li>
+					<li id="partner_sites_container" class="pull-right">
+						<a href="#"><img src="../assets/img/govph_logo.png" alt="#"></a>
+						<a href="#"><img src="../assets/img/philippine_tranparency_logo.png" alt="#"></a>
+						<a href="#"><img src="../assets/img/dmmmsu_logo_small.png" alt="#"></a>
+					</li>
+				</ul>
+				<ul id="main_navigation_container">
+					<li class="navigation_item ">
+						<a href="#" >Erollment</a>
+					</li>
+					<li class="navigation_item user_container_bg active_navigation">
+						<a href="#" class="user_color">My Grades</a>
+					</li>
+					<li class="navigation_item">
+						<a href="#">My Financial Account</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+
+		<section class="accordion_section">
+			<div class="container">
+				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingOne">
+							<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								School Year <span class="school_year user_color">2016 - 2017</span><!-- 
+								 --><button class="user_btn pull-right"><span class="glyphicon glyphicon-save"></span> Download Certificate of Grades</button>
+							</a>
+						</div>
+						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+							<div class="panel-body">
+
+								<!-- Nav tabs -->
+								<ul class="nav nav-tabs" role="tablist">
+									<li role="presentation" class="active">
+										<a href="#first_semested_tab" aria-controls="home" role="tab" data-toggle="tab" class="">First Semester</a>
+									</li><!-- 
+								 --><li role="presentation">
+										<a href="#second_semester_tab" aria-controls="profile" role="tab" data-toggle="tab" class="">Second Semester</a>
+									</li>
+								</ul>
+
+								<!-- Tab panes -->
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane active" id="first_semested_tab">
+										<table class="table table-striped table_with_buttons">
+											<thead>
+												<tr>
+													<th class="user_color">Code Number</th>
+													<th class="user_color">Course Code</th>
+													<th class="user_color">Descriptive Title</th>
+													<th class="user_color">Units</th>
+													<th class="user_color">Final Grade</th>
+													<th class="user_color">Removal Rating</th>
+													<th class="user_color">Remarks</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn orange_bg">PASSED</span></td>
+
+												</tr>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn red_bg">PASSED</span></td>
+												</tr>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn orange_bg">PASSED</span></td>
+												</tr>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn green_bg">PASSED</span></td>
+												</tr>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn green_bg">PASSED</span></td>
+												</tr>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn red_bg">PASSED</span></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+									<div role="tabpanel" class="tab-pane fade" id="second_semester_tab">
+										<table class="table table-striped table_with_buttons">
+											<thead>
+												<tr>
+													<th class="user_color">Code Number</th>
+													<th class="user_color">Course Code</th>
+													<th class="user_color">Descriptive Title</th>
+													<th class="user_color">Units</th>
+													<th class="user_color">Final Grade</th>
+													<th class="user_color">Removal Rating</th>
+													<th class="user_color">Remarks</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn red_bg">PASSED</span></td>
+												</tr>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn orange_bg">PASSED</span></td>
+
+												</tr>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn green_bg">PASSED</span></td>
+												</tr>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn orange_bg">PASSED</span></td>
+												</tr>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn red_bg">PASSED</span></td>
+												</tr>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn green_bg">PASSED</span></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingTwo">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								School Year <span class="school_year user_color">2016 - 2017</span><!-- --><button class="user_btn pull-right"><span class="glyphicon glyphicon-save"></span> Download Certificate of Grades</button>
+							</a>
+						</div>
+						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+							<div class="panel-body">
+								<!-- Nav tabs -->
+								<ul class="nav nav-tabs" role="tablist">
+									<li role="presentation" class="active">
+										<a href="#first_semested_tab_2" aria-controls="home" role="tab" data-toggle="tab" class="">First Semester</a>
+									</li><!-- 
+								 --><li role="presentation">
+										<a href="#second_semester_tab_2" aria-controls="profile" role="tab" data-toggle="tab" class="">Second Semester</a>
+									</li>
+								</ul>
+
+								<!-- Tab panes -->
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane active" id="first_semested_tab_2">
+										<table class="table table-striped table_with_buttons">
+											<thead>
+												<tr>
+													<th class="user_color">Code Number</th>
+													<th class="user_color">Course Code</th>
+													<th class="user_color">Descriptive Title</th>
+													<th class="user_color">Units</th>
+													<th class="user_color">Final Grade</th>
+													<th class="user_color">Removal Rating</th>
+													<th class="user_color">Remarks</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn orange_bg">PASSED</span></td>
+
+												</tr>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn red_bg">PASSED</span></td>
+												</tr>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn orange_bg">PASSED</span></td>
+												</tr>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn green_bg">PASSED</span></td>
+												</tr>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn green_bg">PASSED</span></td>
+												</tr>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn red_bg">PASSED</span></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+									<div role="tabpanel" class="tab-pane fade" id="second_semester_tab_2">
+										<table class="table table-striped table_with_buttons">
+											<thead>
+												<tr>
+													<th class="user_color">Code Number</th>
+													<th class="user_color">Course Code</th>
+													<th class="user_color">Descriptive Title</th>
+													<th class="user_color">Units</th>
+													<th class="user_color">Final Grade</th>
+													<th class="user_color">Removal Rating</th>
+													<th class="user_color">Remarks</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn red_bg">PASSED</span></td>
+												</tr>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn orange_bg">PASSED</span></td>
+
+												</tr>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn green_bg">PASSED</span></td>
+												</tr>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn orange_bg">PASSED</span></td>
+												</tr>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn red_bg">PASSED</span></td>
+												</tr>
+												<tr>
+													<td>CIT83-212</td>
+													<td>IT411</td>
+													<td>System and Network Administration</td>
+													<td>3.00</td>
+													<td>1.00</td>
+													<td></td>
+													<td><span class="remarks_btn green_bg">PASSED</span></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
+</html>

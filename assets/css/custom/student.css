@@ -1,0 +1,131 @@
+/* GRADES TAB */
+/* FINANCIAL ACCOUNT TAB */
+section#financial_account_section .container {
+  box-shadow: none;
+  background-color: #f5f5f5;
+}
+section#financial_account_section .container .account_summary_container {
+  background-color: #767676;
+  display: inline-block;
+  margin-right: 16px;
+  vertical-align: top;
+  width: 190px;
+  box-shadow: 0px 0px 5px #cecece;
+  -webkit-box-shadow: 0px 0px 5px #cecece;
+  -moz-box-shadow: 0px 0px 5px #cecece;
+}
+section#financial_account_section .container .account_summary_container * {
+  font-family: ProximaNova_Regular;
+}
+section#financial_account_section .container .account_summary_container .account_summary_title {
+  background-color: #ffefd4;
+  margin: 0px;
+  font-size: 16px;
+  padding: 13px 15px 11px 14px;
+}
+section#financial_account_section .container .account_summary_container .account_details_list {
+  padding: 16px 20px;
+  margin-bottom: 0px;
+}
+section#financial_account_section .container .account_summary_container .account_details_list li {
+  margin-bottom: 8px;
+}
+section#financial_account_section .container .account_summary_container .account_details_list li:last-child {
+  margin-bottom: 0px;
+}
+section#financial_account_section .container .account_summary_container .account_details_list li span {
+  display: block;
+}
+section#financial_account_section .container .account_summary_container .account_details_list li span:first-child {
+  margin-bottom: 3px;
+  color: #FFFFFF;
+}
+section#financial_account_section .container .account_summary_container .account_details_list li .amount {
+  background-color: #ffefd4;
+  font-size: 20px;
+  color: #767676;
+  font-family: ProximaNova_Bold;
+  text-align: right;
+  padding: 4px 10px 2px 10px;
+}
+section#financial_account_section .container .account_summary_container .account_details_list li .user_btn {
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+}
+section#financial_account_section .container .table_with_header_container {
+  width: 888px;
+}
+section#financial_account_section .container .table_head_fixer_container {
+  height: 268px;
+}
+section#financial_account_section .container .table_head_fixer_container .table_with_header_container {
+  box-shadow: 0px 0px 5px #cecece;
+  -webkit-box-shadow: 0px 0px 5px #cecece;
+  -moz-box-shadow: 0px 0px 5px #cecece;
+  width: 888px;
+}
+#assessment_modal .modal-dialog {
+  width: 655px;
+}
+#assessment_modal .modal-dialog .table_with_header_container {
+  display: block !important;
+}
+#assessment_modal .modal-dialog .table_with_header_container table thead {
+  display: block;
+}
+#assessment_modal .modal-dialog .table_with_header_container table thead tr th:nth-child(1) {
+  width: 430px;
+}
+#assessment_modal .modal-dialog .table_with_header_container table thead tr th:nth-child(2) {
+  width: 223px;
+}
+#assessment_modal .modal-dialog .table_with_header_container table tbody {
+  display: block;
+  max-height: 350px;
+  /* Just for the demo          */
+  overflow-y: auto;
+  /* Trigger vertical scroll    */
+  overflow-x: hidden;
+  /* Hide the horizontal scroll */
+}
+#assessment_modal .modal-dialog .table_with_header_container table tbody tr td:nth-child(1) {
+  width: 430px;
+  text-align: left !important;
+  padding: 10px 80px !important;
+}
+#assessment_modal .modal-dialog .table_with_header_container table tbody tr td:nth-child(2) {
+  width: 223px;
+}
+#assessment_modal .modal-dialog .table_with_header_container table tfoot {
+  display: block;
+}
+#assessment_modal .modal-dialog .table_with_header_container table tfoot tr td {
+  background-color: #ffefd4;
+}
+#assessment_modal .modal-dialog .table_with_header_container table tfoot tr td:nth-child(1) {
+  width: 430px;
+  text-align: left;
+  padding: 10px 80px !important;
+}
+#assessment_modal .modal-dialog .table_with_header_container table tfoot tr td:nth-child(2) {
+  width: 223px;
+  text-align: center;
+}
+#assessment_modal .modal-dialog .table_with_header_container table tfoot tr td span {
+  display: inline-block;
+  vertical-align: middle;
+}
+#assessment_modal .modal-dialog .table_with_header_container table tfoot tr td span.total_assessment_amount_label {
+  font-family: ProximaNova_Bold;
+  font-size: 16px;
+  color: #fc5e5e;
+}
+#assessment_modal .modal-dialog .table_with_header_container table tfoot tr td span.total_assessment_amount {
+  font-size: 20px;
+  color: #6e6e6e;
+  font-family: ProximaNova_Bold;
+}

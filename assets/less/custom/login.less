@@ -1,0 +1,178 @@
+@admin: #1EA98D;
+@admin_container_bg: #454545;
+ 
+@user: #FC5E5E; 
+@user_container_bg: #F5F5F5;
+
+@orange: #F3AA53;
+@yellow: #FFEFD4;
+@white: #ffffff;
+@green: #1EA98D;
+@red: #FC5E5E;
+@gray: #ECECEC;
+
+@gray_text: #6e6e6e;
+
+@font_10: 10px;
+@font_12: 12px;
+@font_14: 14px;
+
+@font_16: 16px;
+@font_18: 18px;
+
+	
+body {
+	background-color: red;
+}
+
+#login_bg {
+	background-image: url('../../img/u_wish_login_bg.jpg');
+
+}
+
+button:focus { outline:0 !important; }
+
+.modal {
+	.modal-dialog {
+		width: 380px;
+		.modal-content {
+			.modal-header {
+				background-color: @red;
+				border-radius: 4px 4px 0px 0px;
+			}
+			.modal-body {
+				padding: 30px;
+				
+
+				input {
+					width: 100%;
+					height: 40px;
+					display: block;
+					margin-bottom: 25px;
+					background-color: @yellow;
+					border: 0px solid white;
+					padding: 0px 15px;
+					font-family: Proximanova_Regular;
+				}
+				.user_btn {
+					width: 100%;
+					height: 40px;
+					margin-bottom: 25px;
+					font-family: Proximanova_Regular;
+					letter-spacing: 10px;
+				}
+
+				span {
+					cursor: pointer;
+					color: #b0b0b0;
+					font-family: Proximanova_Regular;
+					letter-spacing: 1px;
+
+					&:hover {
+						color: @red;
+					}
+				}
+
+			}
+		}
+	}
+}
+
+#wrapper {
+	text-align: center;
+	#login_content_container {
+		// width: 900px;
+		height: 500px;
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+		margin-top: 50px;
+
+		#dmmmsu_logo {
+			display: block;
+			margin: 0px auto;
+		}
+		#u_wish_logo {
+			font-family: Proximanova_Bold;
+			font-size: 100px;
+			color: white;
+			letter-spacing: 10px;
+			text-shadow: 2px 2px 8px #383838;
+			margin-top: 60px;
+		}
+		h2 {
+			color: white;
+			font-family: Proximanova_Regular;
+			font-size: 23px;
+			letter-spacing: 2px;
+			text-shadow: 2px 2px 8px #383838;
+		}
+		.school_name {
+			text-transform: uppercase;
+		}
+		.campus_name {
+			margin-top: 0px;
+		}
+		.title_container {
+			width: 675px;
+			height: 100px;
+			border-top: 1px solid @white;
+			display: block;
+			margin: 0px auto;
+		}
+
+		#login_button_container {
+			margin-top: 90px;
+			.login_btn {
+				font-size: 16px;
+				width: 315px;
+				height: 50px;
+				background-color: transparent;
+				display: inline-block;
+				border: 1px solid white;
+				color: white;
+				font-family: Proximanova_Regular;
+				letter-spacing: 4px;
+				-webkit-transition: all 0.6s; /* Safari */
+    			transition: all 0.6s;
+    			margin: 0px 17px;
+
+
+
+
+
+				&:hover {
+					background-color: @red;
+					border-color: @red;
+					box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+
+
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1280px){
+	#wrapper {
+		#login_content_container {
+			height: 430px !important;
+			#login_button_container {
+				margin-top: 50px !important;
+			}
+		}
+	}
+}
+
+@media (max-width: 800px){
+	#wrapper {
+		#login_content_container {
+			margin-top: 80px;
+			#login_button_container {
+				margin-top: 100px !important;
+			}
+		}
+	}
+}
+
+
