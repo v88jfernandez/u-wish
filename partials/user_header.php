@@ -9,7 +9,7 @@
 			<a id="portal_logo" class="user_bg" href="/">
 				<img src="/assets/img/u_wish_logo.png" alt="#">
 				<img  class="small_version_logo" src="/assets/img/u_wish_logo_sm.png" alt="#">
-				<span class="portal_category">Personnel Portal</span>		
+				<span class="portal_category">Student Portal</span>		
 			</a>
 			<div id="navigation_container">
 				<ul id="sub_navigation_container">

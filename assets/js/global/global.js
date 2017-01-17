@@ -320,61 +320,59 @@ $(document).ready(function(){
 		var personnel_username_input = $("#personnel_username_input").val();
 		var personnel_password_input =  $("#personnel_password_input").val();
 
+
 		if(
-			personnel_id_number_input == "222222" &&
-			personnel_username_input == "personnel_user" &&
-			personnel_password_input == "personnel"
+			personnel_id_number_input == "222222" ||
+			personnel_id_number_input == "333333"
 			){
-			$(this)[0].reset();
-			window.location.href = "personnel/user/gate_management.php";
-		}
-		else if(
-				personnel_id_number_input == "333333" &&
-				personnel_username_input == "personnel_admin" &&
-				personnel_password_input == "admin"
 
-				){
+			$("#personnel_id_number_input").removeClass("error_border");
+			$("#personnel_username_input").removeClass("error_border");
+			$("#personnel_password_input").removeClass("error_border");
 
-			window.location.href = "personnel/admin/gate_management.php";
+			if(personnel_id_number_input == "222222"){
+				if(personnel_username_input == "personnel_user" ){
 
-		}
-		else{
-		
+					$("#personnel_username_input").removeClass("error_border");
 
-			if(
-				personnel_id_number_input != "222222" && 
-				personnel_id_number_input != "333333"
-				){
-				$("#personnel_id_number_input").addClass("error_border");
+					if(personnel_password_input == "personnel"){
+						window.location.href = "personnel/user/gate_management.php";
+					}
+					else{
+						$("#personnel_password_input").addClass("error_border");
+
+					}
+				}
+				else{
+					$("#personnel_username_input").addClass("error_border");
+					$("#personnel_password_input").addClass("error_border");
+				}
 			}
-			else{	
-				$("#personnel_id_number_input").removeClass("error_border");
-			};
+			else if(personnel_id_number_input == "333333"){
+				if(personnel_username_input == "personnel_admin" ){
 
+					$("#personnel_username_input").removeClass("error_border");
 
+					if(personnel_password_input == "admin"){
+						window.location.href = "personnel/admin/gate_management.php";
+					}
+					else{
+						$("#personnel_password_input").addClass("error_border");
 
-			// if(
-			// 	personnel_username_input != "personnel_user" && 
-			// 	personnel_username_input != "personnel_admin"
-			// 	){
-			// 	$("#personnel_username_input").addClass("error_border");
-			// }
-			// else{
-			// 	$("#personnel_username_input").removeClass("error_border");
-			// };
+					}
+				}
+				else{
+					$("#personnel_username_input").addClass("error_border");
+					$("#personnel_password_input").addClass("error_border");
+				}
+			}
+		}
 
-
-			// if(
-			// 	personnel_password_input != "personnel" && 
-			// 	personnel_password_input != "admin"
-			// 	){
-			// 	$("#personnel_password_input").addClass("error_border");
-			// }
-			// else{
-			// 	$("#personnel_password_input").removeClass("error_border");
-			// };
-
-		};
+		else{
+			$("#personnel_id_number_input").addClass("error_border");
+			$("#personnel_username_input").addClass("error_border");
+			$("#personnel_password_input").addClass("error_border");
+		}
 
 		return false;
 	});

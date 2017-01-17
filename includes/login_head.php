@@ -8,16 +8,16 @@
 		
 		<title>U-wish Login</title>
 
-		<link rel="stylesheet" href="/assets/css/vendor/bootstrap/bootstrap.min.css">
-		<link rel="stylesheet" href="/assets/css/vendor/bootstrap_select/bootstrap-select.min.css">
-		<link rel="stylesheet" href="/assets/css/vendor/bootstrap-datepicker/bootstrap-datepicker.min.css">
-		<link rel="stylesheet" href="/assets/css/global/global.css">
-		<link rel="stylesheet" href="/assets/css/custom/login.css">
+		<link rel="stylesheet" href="/assets/css/vendor/bootstrap/bootstrap.min.css?<?= time(); ?>">
+		<link rel="stylesheet" href="/assets/css/vendor/bootstrap_select/bootstrap-select.min.css?<?= time(); ?>">
+		<link rel="stylesheet" href="/assets/css/vendor/bootstrap-datepicker/bootstrap-datepicker.min.css?<?= time(); ?>">
+		<link rel="stylesheet" href="/assets/css/global/global.css?<?= time(); ?>">
+		<link rel="stylesheet" href="/assets/css/custom/login.css?<?= time(); ?>">
 
-		<script type="text/javascript" src="/assets/js/vendor/jquery.min.js"></script>
-		<script type="text/javascript" src="/assets/js/vendor/bootstrap/bootstrap.min.js"></script>
-		<script type="text/javascript" src="/assets/js/vendor/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
-		<script type="text/javascript" src="/assets/js/vendor/table_head_fixer/tableHeadFixer.js"></script>
-		<script type="text/javascript" src="/assets/js/vendor/bootstrap_select/bootstrap-select.min.js"></script>
-		<script type="text/javascript" src="/assets/js/global/global.js"></script>
+		<script type="text/javascript" src="/assets/js/vendor/jquery.min.js?<?= time(); ?>"></script>
+		<script type="text/javascript" src="/assets/js/vendor/bootstrap/bootstrap.min.js?<?= time(); ?>"></script>
+		<script type="text/javascript" src="/assets/js/vendor/bootstrap-datepicker/bootstrap-datepicker.min.js?<?= time(); ?>"></script>
+		<script type="text/javascript" src="/assets/js/vendor/table_head_fixer/tableHeadFixer.js?<?= time(); ?>"></script>
+		<script type="text/javascript" src="/assets/js/vendor/bootstrap_select/bootstrap-select.min.js?<?= time(); ?>"></script>
+		<script type="text/javascript" src="/assets/js/global/global.js?<?= time(); ?>"></script>
 	</head>

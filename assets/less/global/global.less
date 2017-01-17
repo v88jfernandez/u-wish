@@ -133,6 +133,9 @@
 .user_bg {
 	background-color: @user !important;
 }
+.index_bg {	
+	background-color: #a15151 !important;
+}
 .user_container_bg {
 	background-color: @user_container_bg !important;
 }
@@ -346,6 +349,36 @@ label {
 }
 
 #wrapper {
+	position: relative;
+	#homepage_link {
+		position: absolute;
+		top: 35px;
+		left: 20px;
+		display: inline-block;
+		vertical-align: top;
+		a {
+			color: @white;
+			background-color: transparent;
+			border: 1px solid white;
+			padding: 15px;
+			transition: all .5s ease;
+			-webkit-transition: all .5s ease;
+			-moz-transition: all .5s ease;
+			text-decoration: none;
+			border-radius: 5px;
+
+			&:hover {
+				background-color: @red;
+				border: 1px solid @red;
+			}
+			span {
+				color: white;
+				margin-right: 10px;
+
+			}
+		}
+	}
+
 	header {
 		width: 100%;
 		height: 90px;
@@ -1774,24 +1807,62 @@ section.accordion_section{
 
 /* INDEX STYLE */
 #index_container{
+	text-align: center;
 	h2{
 		font-family: ProximaNova_Bold;
+		text-align: center;
+		margin-bottom: 30px;
 	}
+	.first_column, .second_column {
+		width: 330px;	
+		height: 500px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.first_column {
+		margin-right: 40px;
+	}
+	.student_view_container, .login_view_container, .personnel_view_container{
+		box-shadow: 0px 0px 5px #cecece;
+		background-color: @white;
 
-	ul{
-		padding-left: 70px;
-		li{
-			list-style-type: square;
-			h4{
-				font-family: ProximaNova_Bold;
-			}
-
-			a{
-				color: #808080;
-				font-size: 16px;
-			}
+	}
+	.login_view_container {
+		margin-top: 40px;
+		height: 150px;
+		a {
+			margin-top: 9px !important;
 		}
 	}
+	.links_button {
+		width: 80% !important;
+		background-color: white !important;
+		border: 1px solid @red !important;
+		color: @red !important;
+		margin-bottom: 20px;
+		padding: 10px 0px;
+		&:hover {
+			background-color: @red !important;
+			color: white !important;
+		}
+	}
+	li.view_title {
+		background-color: @red;
+		color: @white;
+		font-family: Proximanova_Regular;
+		font-size: 18px;
+		padding: 10px 0px;
+		margin-bottom: 20px;
+		letter-spacing: 2px;
+	}
+	li.personnel_type {
+		text-align: left !important;
+		margin-left: 20px;
+		margin-bottom: 10px;
+		font-family: ProximaNova_Regular;
+
+	}
+
 }
 
 

@@ -7,7 +7,8 @@
 					<div class="search_container pull-right">
 						<input type="text" placeholder="Search Personnel" class="search_personnel_input"><span class="glyphicon glyphicon-search"></span>
 					</div>
-					<a class="admin_btn pull-right" href="../../assets/files/hello_world.txt" download><span class="glyphicon glyphicon-save"></span> Download Master List</a>
+					<a class="admin_btn pull-right"><span class="glyphicon glyphicon-save"></span> Download Master List</a>
+					<!-- <a class="admin_btn pull-right" href="../../assets/files/hello_world.txt" download><span class="glyphicon glyphicon-save"></span> Download Master List</a> -->
 				</div>
 
 				<!-- Nav tabs -->
@@ -564,7 +565,8 @@
 							<a href="#" class="previous_user"><span class="glyphicon glyphicon-chevron-left"></span></a>
 							<a href="#" class="next_user"><span class="glyphicon glyphicon-chevron-right"></span></a>
 						</div>
-						<a class="admin_btn pull-right download_dtr_btn" href="../../assets/files/hello_world.txt" download><span class="glyphicon glyphicon-save"></span> Download DTR</a>	
+						<a class="admin_btn pull-right download_dtr_btn" ><span class="glyphicon glyphicon-save"></span> Download DTR</a>	
+						<!-- <a class="admin_btn pull-right download_dtr_btn" href="../../assets/files/hello_world.txt" download><span class="glyphicon glyphicon-save"></span> Download DTR</a> -->
 					</div>
 
 					<section class="table_with_header_section">

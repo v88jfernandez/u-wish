@@ -32,7 +32,7 @@
 								<td>14 Days</td>
 								<td data-leave-value="0">
 									<select class="pending_leave_request_selectpicker" title="Pending">
-										<option value="1">Approved</option>
+										<option value="1">Approve</option>
 										<option value="2">Dissaprove</option>
 									</select>
 								</td>									
@@ -47,7 +47,7 @@
 								<td>23 Days</td>
 								<td data-leave-value="0">
 									<select class="pending_leave_request_selectpicker" title="Pending">
-										<option value="1">Approved</option>
+										<option value="1">Approve</option>
 										<option value="2">Dissaprove</option>
 									</select>
 								</td>
@@ -62,7 +62,7 @@
 								<td>10 Days</td>
 								<td data-leave-value="0">
 									<select class="pending_leave_request_selectpicker" title="Pending">
-										<option value="1">Approved</option>
+										<option value="1">Approve</option>
 										<option value="2">Dissaprove</option>
 									</select>
 								</td>
@@ -77,7 +77,7 @@
 								<td>14 Days</td>
 								<td data-leave-value="0">
 									<select class="pending_leave_request_selectpicker" title="Pending">
-										<option value="1">Approved</option>
+										<option value="1">Approve</option>
 										<option value="2">Dissaprove</option>
 									</select>
 								</td>									
@@ -92,7 +92,7 @@
 								<td>23 Days</td>
 								<td data-leave-value="0">
 									<select class="pending_leave_request_selectpicker" title="Pending">
-										<option value="1">Approved</option>
+										<option value="1">Approve</option>
 										<option value="2">Dissaprove</option>
 									</select>
 								</td>
@@ -107,7 +107,7 @@
 								<td>10 Days</td>
 								<td data-leave-value="0">
 									<select class="pending_leave_request_selectpicker" title="Pending">
-										<option value="1">Approved</option>
+										<option value="1">Approve</option>
 										<option value="2">Dissaprove</option>
 									</select>
 								</td>
@@ -122,7 +122,7 @@
 								<td>14 Days</td>
 								<td data-leave-value="0">
 									<select class="pending_leave_request_selectpicker" title="Pending">
-										<option value="1">Approved</option>
+										<option value="1">Approve</option>
 										<option value="2">Dissaprove</option>
 									</select>
 								</td>									
@@ -137,7 +137,7 @@
 								<td>23 Days</td>
 								<td data-leave-value="0">
 									<select class="pending_leave_request_selectpicker" title="Pending">
-										<option value="1">Approved</option>
+										<option value="1">Approve</option>
 										<option value="2">Dissaprove</option>
 									</select>
 								</td>
@@ -152,7 +152,7 @@
 								<td>10 Days</td>
 								<td data-leave-value="0">
 									<select class="pending_leave_request_selectpicker" title="Pending">
-										<option value="1">Approved</option>
+										<option value="1">Approve</option>
 										<option value="2">Dissaprove</option>
 									</select>
 								</td>
@@ -167,7 +167,7 @@
 								<td>14 Days</td>
 								<td data-leave-value="0">
 									<select class="pending_leave_request_selectpicker" title="Pending">
-										<option value="1">Approved</option>
+										<option value="1">Approve</option>
 										<option value="2">Dissaprove</option>
 									</select>
 								</td>									
@@ -182,7 +182,7 @@
 								<td>23 Days</td>
 								<td data-leave-value="0">
 									<select class="pending_leave_request_selectpicker" title="Pending">
-										<option value="1">Approved</option>
+										<option value="1">Approve</option>
 										<option value="2">Dissaprove</option>
 									</select>
 								</td>
@@ -197,7 +197,7 @@
 								<td>10 Days</td>
 								<td data-leave-value="0">
 									<select class="pending_leave_request_selectpicker" title="Pending">
-										<option value="1">Approved</option>
+										<option value="1">Approve</option>
 										<option value="2">Dissaprove</option>
 									</select>
 								</td>
@@ -212,7 +212,7 @@
 								<td>14 Days</td>
 								<td data-leave-value="0">
 									<select class="pending_leave_request_selectpicker" title="Pending">
-										<option value="1">Approved</option>
+										<option value="1">Approve</option>
 										<option value="2">Dissaprove</option>
 									</select>
 								</td>									
@@ -227,7 +227,7 @@
 								<td>23 Days</td>
 								<td data-leave-value="0">
 									<select class="pending_leave_request_selectpicker" title="Pending">
-										<option value="1">Approved</option>
+										<option value="1">Approve</option>
 										<option value="2">Dissaprove</option>
 									</select>
 								</td>
@@ -242,7 +242,7 @@
 								<td>10 Days</td>
 								<td data-leave-value="0">
 									<select class="pending_leave_request_selectpicker" title="Pending">
-										<option value="1">Approved</option>
+										<option value="1">Approve</option>
 										<option value="2">Dissaprove</option>
 									</select>
 								</td>
@@ -257,7 +257,7 @@
 								<td>14 Days</td>
 								<td data-leave-value="0">
 									<select class="pending_leave_request_selectpicker" title="Pending">
-										<option value="1">Approved</option>
+										<option value="1">Approve</option>
 										<option value="2">Dissaprove</option>
 									</select>
 								</td>									
@@ -272,7 +272,7 @@
 								<td>23 Days</td>
 								<td data-leave-value="0">
 									<select class="pending_leave_request_selectpicker" title="Pending">
-										<option value="1">Approved</option>
+										<option value="1">Approve</option>
 										<option value="2">Dissaprove</option>
 									</select>
 								</td>
@@ -287,7 +287,7 @@
 								<td>10 Days</td>
 								<td data-leave-value="0">
 									<select class="pending_leave_request_selectpicker" title="Pending">
-										<option value="1">Approved</option>
+										<option value="1">Approve</option>
 										<option value="2">Dissaprove</option>
 									</select>
 								</td>
@@ -302,7 +302,7 @@
 								<td>14 Days</td>
 								<td data-leave-value="0">
 									<select class="pending_leave_request_selectpicker" title="Pending">
-										<option value="1">Approved</option>
+										<option value="1">Approve</option>
 										<option value="2">Dissaprove</option>
 									</select>
 								</td>									
@@ -317,7 +317,7 @@
 								<td>23 Days</td>
 								<td data-leave-value="0">
 									<select class="pending_leave_request_selectpicker" title="Pending">
-										<option value="1">Approved</option>
+										<option value="1">Approve</option>
 										<option value="2">Dissaprove</option>
 									</select>
 								</td>

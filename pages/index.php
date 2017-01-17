@@ -1,6 +1,9 @@
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/login_head.php');?>
 <body id="login_bg">
 	<div id="wrapper">
+		<div id="homepage_link">
+			<a href="/"><span class="glyphicon glyphicon-home"></span>Back to Homepage</a>
+		</div>
 		<div class="modal fade" id="student_login_modal" tabindex="-1" role="dialog" aria-labelledby="student_login_modal_label">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
